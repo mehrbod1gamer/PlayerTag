@@ -42,10 +42,10 @@ class PlayerTag extends PluginBase implements Listener
             case "tag":
                 if($sender instanceof Player){
                     if(isset($this->pm[0])){
-                       $sender->sendMessage(T::GREEN . ">>" . T::YELLOW . "Last Tagged Messages :" . "\n");
+                       $sender->sendMessage(T::YELLOW ">> Last Tagged Messages :" . "\n");
                        $this->msgArray($sender);
                     } else {
-                        $sender->sendMessage(T::RED . "There Is No Tagged Msg Yet");
+                        $sender->sendMessage(T::RED . "There Is No Tagged Msg");
                     }
                 } else {
                  $sender->sendMessage(T::RED . "Use this command in game!");   
@@ -59,10 +59,10 @@ class PlayerTag extends PluginBase implements Listener
         if(isset($this->pm[0])) {
             $player->sendMessage(T::RED . "[1] " . $this->pm[$m -1]);
             if(isset($this->pm[$m - 2])) {
-                $player->sendMessage(T::RED . "[2]" . $this->pm[$m - 2]);
+                $player->sendMessage(T::RED . "[2] " . $this->pm[$m - 2]);
             }
             if(isset($this->pm[$m - 3])) {
-                $player->sendMessage(T::RED . "[3]" . $this->pm[$m - 3]);
+                $player->sendMessage(T::RED . "[3] " . $this->pm[$m - 3]);
             }
         }
     }
