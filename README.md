@@ -12,7 +12,7 @@
 
 3.write name of online player in chat to tag them
 
-4.also you can see last three tagged messages by using /tag
+4.also you can see last three tagged messages by using /tag command
 
 I hope you enjoy plugin
     
