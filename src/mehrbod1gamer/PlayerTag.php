@@ -57,12 +57,12 @@ class PlayerTag extends PluginBase implements Listener
     public function msgArray(Player $player){
         $m = count($this->pm);
         if(isset($this->pm[0])) {
-            $player->sendMessage(T::RED . "1." . $this->pm[$m -1]);
+            $player->sendMessage(T::RED . "[1] " . $this->pm[$m -1]);
             if(isset($this->pm[$m - 2])) {
-                $player->sendMessage(T::RED . "2." . $this->pm[$m - 2]);
+                $player->sendMessage(T::RED . "[2]" . $this->pm[$m - 2]);
             }
             if(isset($this->pm[$m - 3])) {
-                $player->sendMessage(T::RED . "3." . $this->pm[$m - 3]);
+                $player->sendMessage(T::RED . "[3]" . $this->pm[$m - 3]);
             }
         }
     }
