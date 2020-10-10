@@ -45,7 +45,7 @@ class PlayerTag extends PluginBase implements Listener
                        $sender->sendMessage(T::GREEN . ">>" . T::YELLOW . "Last Tagged Messages :" . "\n");
                        $this->msgArray($sender);
                     } else {
-                        $player->sendMessage(T::RED . "There Is No Tagged Msg Yet");
+                        $sender->sendMessage(T::RED . "There Is No Tagged Msg Yet");
                     }
                 } else {
                  $sender->sendMessage(T::RED . "Use this command in game!");   
