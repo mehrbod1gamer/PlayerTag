@@ -1,3 +1,5 @@
+<img src="https://poggit.pmmp.io/shield.state/PlayerTag">
+
 <h1>Description</h1>
  
  players can tag each other
