@@ -11,7 +11,7 @@ use pocketmine\Server;
 use pocketmine\Player;
 use pocketmine\utils\TextFormat as T;
 
-class PlayerTag extends PluginBase implements Listener
+class Main extends PluginBase implements Listener
 {
     public $pm = array();
 
