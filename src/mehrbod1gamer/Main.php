@@ -1,6 +1,6 @@
 <?php
 
-namespace mehrbod1gamer;
+namespace mehrbod1gamer\PlayerTag;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
